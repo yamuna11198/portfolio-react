@@ -2,7 +2,7 @@ function Contact() {
   return (
     <section id="contact" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h3 className="text-3xl font-bold mb-6 text-primary">Contact Me</h3>
+        <h3 className="text-3xl font-bold mb-6 text-indigo-500">Contact  <span className="text-indigo-400 border-b-2">Me</span> </h3>
 
         <form className="space-y-6 max-w-md mx-auto">
           <input
