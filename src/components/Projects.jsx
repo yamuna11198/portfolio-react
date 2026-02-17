@@ -6,7 +6,7 @@ function Projects() {
       subtitle: 'Foreign Student Information System - A web platform for tracking foreign students enrolled in Indian institutions.',
       description: 'Built responsive, dynamic dashboards for student and institution-level data tracking. Integrated multi-step registration and verification forms with Angular Reactive Forms. Worked on role-based access and data visualization modules.',
       tech: ['Angular', 'RxJS', 'REST APIs', 'Angular Material', 'JSON'],
-      image: 'src/assets/project/fsis.jpg',
+      image: '/portfolio-react/assets/project/fsis.jpg',
       link: 'https://indianfrro.gov.in/fsis/#/sessions/signin'
     },
     {
@@ -14,7 +14,7 @@ function Projects() {
       subtitle: 'An online portal providing 30+ services for foreign nationals such as Visa Extension, Exit Permit, and Long-Term Visa (LTV).',
       description: 'Designed and implemented dynamic multi-step forms with real-time validations. Managed complex workflows and service-specific validation logic using Reactive Forms. Collaborated with backend teams to handle high-volume API data securely.',
       tech: ['Angular', 'RxJS', 'REST APIs', 'Angular Material', 'JWT'],
-      image: 'src/assets/project/project2.jpg',
+      image: '/portfolio-react/assets/project/project2.jpg',
       link: 'https://indianfrro.gov.in/efrro/home'
     }
   ];

@@ -1,3 +1,5 @@
+
+
 function Hero() {
   return (
     <section className="min-h-screen pt-24 bg-[#0B0F19] text-white flex items-center">
@@ -32,8 +34,8 @@ function Hero() {
         {/* RIGHT SIDE */}
         <div className="relative flex justify-center items-center">
           <div className="absolute w-80 h-80 bg-[#7B61FF]/20 rounded-full blur-3xl"></div>
-            <img className="relative w-100 h-125 object-fit rounded-full 
-                   hover:scale-105 transition duration-500" src="src/assets/images/mypic1.png" ></img>
+            <img className="relative w-100 h-110 object-fit rounded-full 
+                   hover:scale-105 transition duration-500" src="/portfolio-react/assets/images/mypic1.png" ></img>
         </div>
 
       </div>
