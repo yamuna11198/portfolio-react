@@ -1,6 +1,8 @@
+import { FileText, Linkedin, Mail, MessageCircle } from "lucide-react";
+
 function About() {
   return (
-    <section id="about" className="py-20 px-6">
+    <section id="about" className="py-20 px-6 bg-indigo-100">
       <div className="max-w-6xl mx-auto text-center">
         <h3 className="text-3xl text-indigo-600 font-bold mb-6 text-primary">About <span className="text-indigo-400 border-b-2">Me</span> </h3>
         <p className="text-black max-w-3xl mx-auto leading-relaxed">
@@ -14,7 +16,10 @@ function About() {
 </p>
 
       </div>
+
+
     </section>
+
   );
 }
 

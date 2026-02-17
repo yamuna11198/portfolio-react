@@ -7,11 +7,13 @@ import Experience from "./components/Experience";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import SideDock from "./components/SideDock";
 
 function App() {
   return (
     <div className="bg-darkBg text-white scroll-smooth">
       <Navbar />
+      <SideDock />
       <Hero />
       <About />
       <Skills />

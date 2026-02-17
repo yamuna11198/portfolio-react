@@ -36,7 +36,7 @@ function Experience() {
   ];
 
   return (
-    <section className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
+    <section id="experience" className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
 
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] bg-[#7B61FF]/10 blur-[160px] -top-32 left-0"></div>

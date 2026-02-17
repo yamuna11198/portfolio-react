@@ -19,14 +19,14 @@ function Blogs() {
     fetchBlogs();
   }, []);
 const extractImage = (content) => {
-    console.log("Extracting image from content:", content);
+    // console.log("Extracting image from content:", content);
   const match = content.match(/<img[^>]+src="([^">]+)"/);
-  console.log("Extracted image URL:", match ? match[1] : "No image found");
+//   console.log("Extracted image URL:", match ? match[1] : "No image found");
   return match ? match[1] : null;
 };
 
   return (
-    <section className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
+    <section id="blogs" className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
       
       {/* Background Glow */}
       <div className="absolute w-[500px] h-[500px] bg-[#7B61FF]/10 blur-[150px] -top-40 right-0"></div>

@@ -20,7 +20,7 @@ function Projects() {
   ];
 
   return (
-    <section className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
+    <section id="projects" className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
 
       {/* Background glow */}
       <div className="absolute w-[600px] h-[600px] bg-[#7B61FF]/10 blur-[160px] -top-40 right-0"></div>
@@ -29,7 +29,7 @@ function Projects() {
 
         <div className="mb-24">
           <h2 className="text-5xl font-bold tracking-tight">
-            Selected <span className="text-[#7B61FF]">Projects</span>
+            Key <span className="text-[#7B61FF]">Projects</span>
           </h2>
           <p className="text-gray-400 mt-6 max-w-2xl">
             Production-grade applications focused on scalable UI architecture, enterprise workflows, and secure API integrations.

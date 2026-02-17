@@ -19,7 +19,7 @@ function Skills() {
   ];
 
   return (
- <section className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
+ <section id="skills" className="relative py-32 bg-[#0B0F19] text-white overflow-hidden">
 
       {/* Background Light Layer */}
       <div className="absolute w-[600px] h-[600px] bg-[#7B61FF]/15 blur-[160px] -top-40 -left-40"></div>
