@@ -37,10 +37,10 @@ function SideDock() {
           < MessageCircle className="text-indigo-900 border-gray-300"/>
         </DockIcon>
       </div>
-
+     
       {/* Mobile Dock */}
       <div
-        className={`fixed bottom-15 left-1/2 -translate-x-1/2 z-50 flex md:hidden gap-6 px-6 py-3 rounded-2xl 
+        className={`fixed bottom-10 left-1/2 -translate-x-1/2 z-50 flex md:hidden gap-6 px-6 py-3 rounded-2xl 
         bg-white/10 backdrop-blur-md border border-white/10 transition-all duration-500
         ${scrolled ? "shadow-[0_0_30px_rgba(123,97,255,0.4)]" : ""}`}
       >
@@ -48,11 +48,11 @@ function SideDock() {
           <FileText />
         </DockIcon>
 
-        <DockIcon href="https://linkedin.com/in/YOUR_LINKEDIN" external>
+        <DockIcon href="https://www.linkedin.com/in/yamunadevi-k-05a6791b5/" external>
           <Linkedin />
         </DockIcon>
 
-        <DockIcon href="mailto:yourmail@email.com">
+        <DockIcon href="mailto:yamuna11198@gmail.com">
           <Mail />
         </DockIcon>
 
