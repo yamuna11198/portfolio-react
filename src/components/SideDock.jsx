@@ -21,7 +21,7 @@ function SideDock() {
         bg-white/10 backdrop-blur-md border border-white/10 transition-all duration-500
         ${scrolled ? "shadow-[0_0_30px_rgba(123,97,255,0.4)]" : ""}`}
       >
-        <DockIcon tooltip="Resume" href="public/assets/YamunaDevi_Resume_Updated.pdf" external>
+        <DockIcon tooltip="Resume" href="/portfolio-react/assets/Yamuna_Devi_Resume_Updated.pdf" external>
           <FileText className="text-indigo-900"/>
         </DockIcon>
 
