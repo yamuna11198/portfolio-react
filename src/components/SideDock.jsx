@@ -44,7 +44,7 @@ function SideDock() {
         bg-white/10 backdrop-blur-md border border-white/10 transition-all duration-500
         ${scrolled ? "shadow-[0_0_30px_rgba(123,97,255,0.4)]" : ""}`}
       >
-        <DockIcon href="public/assets/YamunaDevi_Resume_Updated.pdf" external>
+        <DockIcon href="public/assets/Yamuna_Devi_Single_Page_resume.pdf" external>
           <FileText />
         </DockIcon>
 
